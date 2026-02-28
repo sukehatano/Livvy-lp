@@ -156,10 +156,10 @@ function FeaturesSection() {
 
 function ScreenshotsSection() {
   const screenshots = [
-    { id: 1, alt: "Livvy App Screenshot 1" },
-    { id: 2, alt: "Livvy App Screenshot 2" },
-    { id: 3, alt: "Livvy App Screenshot 3" },
-    { id: 4, alt: "Livvy App Screenshot 4" },
+    { id: 1, alt: "Livvy Sobriety Tracker - Track your sober days with daily check-ins" },
+    { id: 2, alt: "Livvy AI Chat - Compassionate AI companion for craving support" },
+    { id: 3, alt: "Livvy Journal - Calendar-based daily reflection and journaling" },
+    { id: 4, alt: "Livvy Widget - iOS home screen sobriety tracking widget" },
   ];
 
   return (
@@ -180,28 +180,11 @@ function ScreenshotsSection() {
               key={screenshot.id}
               className="relative aspect-[9/19.5] bg-gray-200 rounded-[2rem] overflow-hidden shadow-xl border-4 border-gray-300"
             >
-              {/* Placeholder - Replace with actual screenshots */}
-              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-primary/10 to-accent/10">
-                <div className="text-center">
-                  <div className="text-4xl mb-2">📱</div>
-                  <p className="text-sm text-text-secondary font-medium">
-                    Screenshot {screenshot.id}
-                  </p>
-                  <p className="text-xs text-text-secondary mt-1">
-                    Coming Soon
-                  </p>
-                </div>
-              </div>
-              {/*
-                To add real screenshots:
-                1. Place images in /public/images/ as screenshot-1.png, screenshot-2.png, etc.
-                2. Uncomment the img tag below and remove the placeholder div above.
-              */}
-              {/* <img
+              <img
                 src={`/images/screenshot-${screenshot.id}.png`}
                 alt={screenshot.alt}
                 className="w-full h-full object-cover"
-              /> */}
+              />
             </div>
           ))}
         </div>
