@@ -129,15 +129,16 @@ export default function PrivacyPolicy() {
               <ul className="list-disc pl-6 mt-2 space-y-1">
                 <li>Apple App Store (for distribution and payments)</li>
                 <li>
-                  AI/Language Model providers (for powering the companion chat
-                  feature)
+                  Apple Foundation Models (for powering the on-device AI
+                  companion chat; requires iOS 26 or later)
                 </li>
               </ul>
               <p className="mt-3">
-                When interacting with the AI companion, your chat messages may
-                be processed by third-party AI service providers. We minimize
-                the personal information sent to these services and do not share
-                your identity with them.
+                The AI companion feature is powered by Apple Foundation Models,
+                which process your conversations entirely on-device. Your chat
+                messages are not sent to external servers. On iOS versions
+                earlier than iOS 26, the AI companion provides pre-built
+                supportive responses without any data transmission.
               </p>
             </section>
 

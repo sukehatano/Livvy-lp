@@ -75,7 +75,7 @@ function FeaturesSection() {
       icon: "💬",
       title: "AI Companion Chat",
       description:
-        "Talk to Livvy anytime. A compassionate AI companion that listens, supports, and grows with you through your recovery journey.",
+        "Talk to Livvy anytime. A compassionate AI companion powered by Apple Foundation Models that listens, supports, and grows with you. Requires iOS 26 or later.",
     },
     {
       icon: "📊",
