@@ -158,7 +158,36 @@ export default function TermsOfUse() {
 
             <section>
               <h2 className="text-2xl font-semibold text-text-primary mb-3">
-                6. Intellectual Property
+                6. Subscriptions and Payments
+              </h2>
+              <p>
+                Livvy may offer premium features through auto-renewable
+                subscriptions, managed via Apple&apos;s App Store and processed
+                by RevenueCat.
+              </p>
+              <ul className="list-disc pl-6 mt-2 space-y-1">
+                <li>
+                  Payment is charged to your Apple ID account at confirmation
+                  of purchase
+                </li>
+                <li>
+                  Subscriptions automatically renew unless cancelled at least
+                  24 hours before the end of the current billing period
+                </li>
+                <li>
+                  You can manage and cancel subscriptions in your Apple ID
+                  account settings
+                </li>
+                <li>
+                  Refunds are handled by Apple in accordance with their refund
+                  policies
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-text-primary mb-3">
+                7. Intellectual Property
               </h2>
               <p>
                 All content, features, and functionality of the App, including
@@ -177,7 +206,7 @@ export default function TermsOfUse() {
 
             <section>
               <h2 className="text-2xl font-semibold text-text-primary mb-3">
-                7. Limitation of Liability
+                8. Limitation of Liability
               </h2>
               <p>
                 To the fullest extent permitted by applicable law, Livvy and its
@@ -206,7 +235,7 @@ export default function TermsOfUse() {
 
             <section>
               <h2 className="text-2xl font-semibold text-text-primary mb-3">
-                8. Termination
+                9. Termination
               </h2>
               <p>
                 We reserve the right to terminate or suspend your access to the
@@ -218,7 +247,7 @@ export default function TermsOfUse() {
 
             <section>
               <h2 className="text-2xl font-semibold text-text-primary mb-3">
-                9. Changes to Terms
+                10. Changes to Terms
               </h2>
               <p>
                 We reserve the right to modify these Terms at any time. We will
@@ -231,7 +260,7 @@ export default function TermsOfUse() {
 
             <section>
               <h2 className="text-2xl font-semibold text-text-primary mb-3">
-                10. Governing Law
+                11. Governing Law
               </h2>
               <p>
                 These Terms shall be governed by and construed in accordance
@@ -242,7 +271,7 @@ export default function TermsOfUse() {
 
             <section>
               <h2 className="text-2xl font-semibold text-text-primary mb-3">
-                11. Contact Us
+                12. Contact Us
               </h2>
               <p>
                 If you have any questions about these Terms of Use, please

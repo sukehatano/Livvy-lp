@@ -37,6 +37,11 @@ function HeroSection() {
   return (
     <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-bg-soft to-white">
       <div className="max-w-6xl mx-auto text-center">
+        <img
+          src="/images/livvy-hero.png"
+          alt="Livvy character waving hello"
+          className="w-32 h-32 mx-auto mb-6 drop-shadow-lg"
+        />
         <div className="inline-block bg-primary/10 text-primary text-sm font-medium px-4 py-1.5 rounded-full mb-6">
           Your Recovery Companion
         </div>
@@ -44,7 +49,7 @@ function HeroSection() {
           Recovery made
           <br />
           <span className="text-primary">compassionate</span> and{" "}
-          <span className="text-accent">personal</span>
+          <span className="text-accent-dark">personal</span>
         </h1>
         <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-10 leading-relaxed">
           Livvy is your AI-powered companion that walks with you on your
@@ -126,6 +131,11 @@ function FeaturesSection() {
     <section id="features" className="py-24 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
+          <img
+            src="/images/livvy-features.png"
+            alt="Livvy character flexing muscles"
+            className="w-24 h-24 mx-auto mb-4 drop-shadow-md"
+          />
           <h2 className="text-4xl font-bold text-text-primary mb-4">
             Everything you need for your recovery
           </h2>
@@ -178,6 +188,11 @@ function DownloadSection() {
   return (
     <section id="download" className="py-24 px-6 bg-white">
       <div className="max-w-4xl mx-auto text-center">
+        <img
+          src="/images/livvy-download.png"
+          alt="Livvy character reading a book"
+          className="w-28 h-28 mx-auto mb-6 drop-shadow-md"
+        />
         <h2 className="text-4xl font-bold text-text-primary mb-4">
           Start your journey today
         </h2>
@@ -213,9 +228,16 @@ function Footer() {
     <footer className="bg-gray-900 text-gray-400 py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <span className="text-2xl font-bold text-white">Livvy</span>
-            <p className="text-sm mt-1">Your Compassionate Recovery Companion</p>
+          <div className="flex items-center gap-3">
+            <img
+              src="/images/livvy-cta.png"
+              alt="Livvy character cheering"
+              className="w-10 h-10"
+            />
+            <div>
+              <span className="text-2xl font-bold text-white">Livvy</span>
+              <p className="text-sm mt-1">Your Compassionate Recovery Companion</p>
+            </div>
           </div>
           <div className="flex items-center gap-8 text-sm">
             <Link

@@ -129,10 +129,29 @@ export default function PrivacyPolicy() {
               <ul className="list-disc pl-6 mt-2 space-y-1">
                 <li>Apple App Store (for distribution and payments)</li>
                 <li>
+                  RevenueCat (for managing in-app subscriptions and purchase
+                  validation)
+                </li>
+                <li>
                   Apple Foundation Models (for powering the on-device AI
                   companion chat; requires iOS 26 or later)
                 </li>
               </ul>
+              <p className="mt-3">
+                RevenueCat processes anonymous purchase and subscription data to
+                manage your in-app purchases. This may include an anonymous app
+                user ID, purchase history, and subscription status. For more
+                details, see{" "}
+                <a
+                  href="https://www.revenuecat.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary-dark underline"
+                >
+                  RevenueCat&apos;s Privacy Policy
+                </a>
+                .
+              </p>
               <p className="mt-3">
                 The AI companion feature is powered by Apple Foundation Models,
                 which process your conversations entirely on-device. Your chat
