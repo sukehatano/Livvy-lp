@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ScreenshotCarousel from "./screenshot-carousel";
 
 function Header() {
   return (
@@ -155,13 +156,6 @@ function FeaturesSection() {
 }
 
 function ScreenshotsSection() {
-  const screenshots = [
-    { id: 1, alt: "Livvy Sobriety Tracker - Track your sober days with daily check-ins" },
-    { id: 2, alt: "Livvy AI Chat - Compassionate AI companion for craving support" },
-    { id: 3, alt: "Livvy Journal - Calendar-based daily reflection and journaling" },
-    { id: 4, alt: "Livvy Widget - iOS home screen sobriety tracking widget" },
-  ];
-
   return (
     <section id="screenshots" className="py-24 px-6 bg-bg-soft">
       <div className="max-w-6xl mx-auto">
@@ -174,20 +168,7 @@ function ScreenshotsSection() {
             natural and engaging.
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-          {screenshots.map((screenshot) => (
-            <div
-              key={screenshot.id}
-              className="relative aspect-[9/19.5] bg-gray-200 rounded-[2rem] overflow-hidden shadow-xl border-4 border-gray-300"
-            >
-              <img
-                src={`/images/screenshot-${screenshot.id}.png`}
-                alt={screenshot.alt}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          ))}
-        </div>
+        <ScreenshotCarousel />
       </div>
     </section>
   );
